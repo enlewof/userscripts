@@ -4,7 +4,7 @@
 // @namespace    http://allen.alew.org
 // @include        http://*.betterworks.com/*
 // @updateURL http://allen.alew.org/wp-content/uploads/2012/04/betterworks-yelp-reviews.user.js
-// @version 1.2
+// @version 1.2.1
 // ==/UserScript==
 
 // a function that loads jQuery and calls a callback function when jQuery has finished loading
@@ -21,6 +21,7 @@ function addJQuery(callback) {
 
 // main function  of this userscript
 function main() {
+	$.noConflict();
 	$(document).ready(function() {
 		$(".PerkTitle").each(function() {
 			var name = $("a", this).text().replace(/^\s+|\s+$/g, '');
