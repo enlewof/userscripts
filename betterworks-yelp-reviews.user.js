@@ -2,7 +2,7 @@
 // @name           Betterworks.com yelp links 
 // @description    Linking from Betterworks.com to Yelp search for reviews (code lifted from the Restaurant.com Yelp links script -http://userscripts.org/scripts/review/96836)
 // @namespace    http://allen.alew.org
-// @include        http://*.betterworks.com/*
+// @include        https://*.betterworks.com/*
 // @updateURL http://allen.alew.org/wp-content/uploads/2012/04/betterworks-yelp-reviews.user.js
 // @version 1.2.1
 // ==/UserScript==
